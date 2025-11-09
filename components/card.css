@@ -1,14 +1,15 @@
 .card {
-    background: var(--color-white);
-    padding: 1.5rem;
+    background-image: url(../src/assets/cardback.jpg);
+    background-size: cover;
+    padding: 1rem;
     border-radius: var(--border-radius-2);
     border: 2px solid transparent;
     transition: var(--transition);
 } 
 
 .card:hover {
-    background: transparent;
-    border-color: var(--color-white);
+    /* background: transparent;
+    border-color: var(--color-white); */
     transform: translateY(-0.5rem);
 }
 

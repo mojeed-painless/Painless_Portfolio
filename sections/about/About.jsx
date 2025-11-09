@@ -24,7 +24,7 @@ export default function About() {
         </div>
 
         <div className="about__right">
-          <h2>About Me</h2>
+          <h3>About Me</h3>
           <div className="about__cards">
             {data.map(({id, icon, title, description}) => (
               <Card key={id} className="about__card">
