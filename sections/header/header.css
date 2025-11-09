@@ -48,6 +48,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
 }
 
 .header__socials a {
@@ -59,6 +60,7 @@ header {
     place-items: center;
     border-radius: var(--border-radius-3);
     font-size: 1.2rem;
+    opacity: 0.6;
 }
 
 .header__socials a:first-child {
@@ -81,6 +83,7 @@ header {
     /* background: var(--color-primary);
     color: var(--color-white); */
     transform: scale(1.5);
+    opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {

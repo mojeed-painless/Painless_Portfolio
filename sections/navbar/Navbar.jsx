@@ -1,6 +1,7 @@
 import logo from '../../src/assets/pcalogo.png';
 import { IoIosColorPalette } from "react-icons/io";
 import './navbar.css';
+import { useState } from 'react'
 
 const data = [
     {id: 1, link: '#', title: 'Home'},
@@ -11,6 +12,13 @@ const data = [
 ];
 
 export default function Navbar() {
+
+    const [isActive, setIsActive] = useState(0);
+
+    function handleSelect(id) {
+        setIsActive(id);
+    }
+
     return (
         <nav>
             <div className="container nav__container">
@@ -20,7 +28,15 @@ export default function Navbar() {
                 <ul className='nav__menu'>
                     {data.map(({id, link, title}) => {
                         return (
-                            <li key={id}><a href={link}>{title}</a></li>
+                            <li key={id}>
+                                <a 
+                                    href={link} 
+                                    className={(isActive === id) && 'active__link'} 
+                                    onClick={ () => handleSelect(id)}
+                                >
+                                    {title}
+                                </a>
+                            </li>
                         )
                     })}
                 </ul>

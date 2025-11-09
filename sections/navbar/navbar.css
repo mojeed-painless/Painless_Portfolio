@@ -28,8 +28,39 @@ nav {
 
 .nav__menu {
     display: flex;
-    gap: 3.5rem;
+    gap: 2.5rem;
     font-size: 0.85rem;
+    
+}
+
+.active__link::after {
+    content: "";
+    background-color: var(--color_success);
+    height: 100%;
+    width: 3px;
+    position: absolute;
+    top: 0;
+    left: -3px;
+    transition: var(--transition);
+}
+
+.nav__menu a {
+    padding: 0 7px;
+    position: relative;
+}
+
+.nav__menu a::before {
+    content: "";
+    background-color: var(--color_success);
+    height: 0;
+    width: 3px;
+    position: absolute;
+    top: 0;
+    left: -3px;
+    transition: var(--transition);
+}
+.nav__menu a:hover::before {
+    height: 100%;
 }
 
 #theme__icon {
