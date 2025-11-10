@@ -17,7 +17,7 @@ const data = [
 
 export default function Header() {
     return (
-        <header id='header'>
+        <header id='home'>
             <div className="container header__container">
                 <div className="header__profile">
                     <img src={headerImage} alt="Header Profile" />

@@ -1,0 +1,45 @@
+aside {
+    position: fixed;
+    bottom: 1rem;
+    right: 50%;
+    transform: translateX(50%);
+    min-width: 18rem;
+    background-color: rgb(156, 156, 156, 0.6);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    z-index: 1000;
+
+    /* new: smooth show/hide */
+    transition: var(--transition);
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(50%) translateY(0);
+}
+
+/* hidden state: slide down slightly + fade + disable interactions */
+.floating--hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(50%) translateY(12px);
+    pointer-events: none;
+}
+
+.floating__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.floating__menu a {
+    font-size: 1.1rem;
+    display: flex;
+    padding: 0.5rem;
+    
+}
+
+.floating-active__link {
+    background: rgb(19, 19, 145);
+    border-radius: 50%;
+}

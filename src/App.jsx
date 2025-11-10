@@ -7,6 +7,7 @@ import Testimonials from '../sections/testimonials/Testimonials.jsx';
 import FAQS from '../sections/faqs/FAQS.jsx';
 import Contact from '../sections/contact/Contact.jsx';
 import Footer from '../sections/footer/Footer.jsx';
+import FloatingNav from '../sections/floating-nav/FloatingNav.jsx';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <FAQS />
       <Contact />
       <Footer />
+      <FloatingNav />
     </main>
     
   )
