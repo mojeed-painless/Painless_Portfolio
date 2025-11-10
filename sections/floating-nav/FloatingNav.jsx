@@ -61,7 +61,7 @@ export default function FloatingNav() {
                 hideTimer.current = setTimeout(() => {
                     setVisible(false);
                     hideTimer.current = null;
-                }, 1500);
+                }, 3000);
             };
 
             const handleScroll = () => {
@@ -85,7 +85,7 @@ export default function FloatingNav() {
           // if user clicks, keep visible briefly
           setVisible(true);
           if (hideTimer.current) { clearTimeout(hideTimer.current); }
-          hideTimer.current = setTimeout(() => setVisible(false), 1500);
+          hideTimer.current = setTimeout(() => setVisible(false), 3000);
     }
 
     
