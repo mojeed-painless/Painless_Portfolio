@@ -25,6 +25,7 @@
     --color_warning:#FEB100;
     --color_danger:#DC0000;
     --color_sky:#6666FF;
+    --color__background: #212e50;
 
     --container-width-lg: 76%;
     --container-width-md: 90%;
@@ -59,6 +60,8 @@ section {
     background: var(--color-light);
     transition: var(--transition);
     min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 section:nth-child(even) {

@@ -3,7 +3,7 @@ header {
     height: calc(100vh - 5rem);
     display: grid;
     place-items: center;
-    background: var(--color-white);
+    background: var(--color__background);
     background-image: url(../../src/assets/blueback.jpg);
     background-size: cover;
     transition: var(--transition);

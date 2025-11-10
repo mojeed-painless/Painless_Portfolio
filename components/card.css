@@ -1,4 +1,5 @@
 .card {
+    background: var(--color__background);
     background-image: url(../src/assets/cardback.jpg);
     background-size: cover;
     padding: 1rem;

@@ -1,8 +1,3 @@
-#services {
-    display: grid;
-    place-items: center;
-}
-
 .service__container {
     display: grid;
     place-items: center;
@@ -21,6 +16,7 @@
 }
 
 .service__card {
+    background: var(--color__background);
     background-image: url(../../src/assets/serviceback.jpg);
     background-size: cover;
     border-radius: var(--border-radius-2);
