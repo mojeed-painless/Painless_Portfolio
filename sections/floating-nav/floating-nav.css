@@ -1,3 +1,7 @@
+
+@media screen and (max-width: 1024px) {
+    
+
 aside {
     position: fixed;
     bottom: 1rem;
@@ -42,4 +46,5 @@ aside {
 .floating-active__link {
     background: rgb(19, 19, 145);
     border-radius: 50%;
+}
 }
