@@ -85,3 +85,13 @@
 }
 
 
+
+@media screen and (max-width: 600px) {
+.portfolio__items {
+    
+    grid-template-columns: 1fr;
+    
+    }
+}
+
+
