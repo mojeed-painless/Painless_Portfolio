@@ -87,10 +87,13 @@
 
 
 @media screen and (max-width: 600px) {
+    .portfolio__buttons {
+    
+        flex-direction: column;
+    }
+    
 .portfolio__items {
-    
     grid-template-columns: 1fr;
-    
     }
 }
 
