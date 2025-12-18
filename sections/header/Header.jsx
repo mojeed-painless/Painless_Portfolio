@@ -1,4 +1,4 @@
-import headerImage from '../../src/assets/headshot.jpg';
+import headerImage from '../../src/assets/hoody-headshot.png';
 import './header.css';
 
 import { AiOutlineInstagram } from "react-icons/ai";
