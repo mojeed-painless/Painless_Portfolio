@@ -130,6 +130,7 @@ img {
     border: 1px solid transparent;
     border-radius: var(--border-radius-3);
     cursor: pointer;
+    transition: all 400ms ease;
 }
 
 .btn:hover {

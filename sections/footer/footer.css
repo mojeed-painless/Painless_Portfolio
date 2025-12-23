@@ -23,6 +23,10 @@ footer {
     gap: 2rem;
 }
 
+.footer__menu a:hover {
+    color: var(--color_success);
+}
+
 .footer__socials {
     display: flex;
     gap: 1rem;

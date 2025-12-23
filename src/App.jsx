@@ -18,8 +18,8 @@ function App() {
       <About />
       <Services />
       <Portfolio />
-      <Testimonials />
-      <FAQS />
+      {/* <Testimonials />
+      <FAQS /> */}
       <Contact />
       <Footer />
       <FloatingNav />
