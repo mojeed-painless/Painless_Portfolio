@@ -1,12 +1,8 @@
-<<<<<<< HEAD
+
 import headerImage from '../../src/assets/head-shot1.png';
-=======
-import headerImage from '../../src/assets/hoody-headshot.png';
->>>>>>> 66601d9f39fce5167fab524e439f7e1e8b7177ae
 import './header.css';
 
 import { AiOutlineWhatsApp, AiOutlineGithub } from "react-icons/ai";
-import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 
 
