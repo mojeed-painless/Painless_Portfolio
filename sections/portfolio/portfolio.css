@@ -24,13 +24,8 @@
     background: var(--color__background);
     background-image: url(../../src/assets/portfolioback.jpg);
     background-size: cover;
-<<<<<<< HEAD
     padding: 0.6rem 0.6rem 1.5rem;
     /* border-radius: var(--border-radius-3); */
-=======
-    padding: 1.2rem;
-    border-radius: 1.5rem;
->>>>>>> 66601d9f39fce5167fab524e439f7e1e8b7177ae
     box-shadow: var(--box-shadow);
     transition: var(--transition);
     text-align: center;
@@ -91,20 +86,6 @@
     border: 1px solid white;
     color: white;
     box-shadow: 0 0 15px black;
-}
-
-
-
-@media screen and (max-width: 600px) {
-    .portfolio__buttons {
-    
-        flex-direction: column;
-    }
-    
-.portfolio__items {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    }
 }
 
 
