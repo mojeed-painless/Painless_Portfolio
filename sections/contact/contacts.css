@@ -5,7 +5,8 @@
 
 .contact__body {
     display: flex;
-    gap: 3rem;
+    justify-content: center;
+    gap: 6rem;
 }
 
 .contact__items {
@@ -47,7 +48,7 @@
 
 
 .contact__right {
-    width: 100%;
+    width: 50%;
 }
 
 .contact__right form {
@@ -110,7 +111,13 @@
 
 
 @media screen and (max-width: 600px) {
+    
     .contact__body {
         flex-direction: column;
+        gap: 3rem;
+    }
+
+    .contact__right {
+        width: 100%;
     }
 }
