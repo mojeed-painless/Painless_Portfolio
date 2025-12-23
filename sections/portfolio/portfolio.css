@@ -89,3 +89,14 @@
 }
 
 
+
+@media screen and (max-width: 600px) {
+    .portfolio__items {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio__item-cta {
+        margin-top: 1.5rem;
+    }
+}
+
