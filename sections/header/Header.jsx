@@ -1,17 +1,16 @@
-import headerImage from '../../src/assets/main.jpg';
+import headerImage from '../../src/assets/head-shot1.png';
 import './header.css';
 
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineWhatsApp, AiOutlineGithub } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import { AiOutlineGithub } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
 
 
 const data = [
-    {id: 1, link: 'https://instagam.com', icon: <AiOutlineInstagram />},
-    {id: 2, link: 'https://twitter.com', icon: <BsTwitterX />},
-    {id: 4, link: 'https://github.com', icon: <AiOutlineGithub />},
-    {id: 3, link: 'https://dribbble.com', icon: <AiOutlineWhatsApp />},
+    {id: 1, link: 'https://linkedin.com/in/mojeed-shittu', icon: <FaLinkedin />},
+    // {id: 2, link: 'https://twitter.com', icon: <BsTwitterX />},
+    {id: 4, link: 'https://github.com/mojeed-painless', icon: <AiOutlineGithub />},
+    {id: 3, link: 'https://wa.me/2349124323167', icon: <AiOutlineWhatsApp />},
     
 ]
 
@@ -22,12 +21,18 @@ export default function Header() {
                 <div className="header__profile">
                     <img src={headerImage} alt="Header Profile" />
                 </div>
+
                 <h3>Mojeed Shittu</h3>
-                <p>You are a click away from building your dream website or web app. Send me the details of your project fo a modern, mobile responsive, highly performant website today!</p>
+
+                <h4>( Frontend Developer )</h4>
+
+                <p>One click is all it takes to start building your dream website or web app. Send us your project details today for a modern, mobile-responsive, and high-performance solution.</p>
+                
                 <div className="header__cta">
                     <a href="#contact" className='btn primary'>Let's Talk</a>
                     <a href="#portfolio" className='btn light'>My Wok</a>
                 </div>
+                
                 <div className="header__socials">
                     {data.map(({id, link, icon}) => (
                         <a key={id} href={link} target="_blank" rel="noreferrer noopener">{icon}</a>

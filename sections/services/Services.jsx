@@ -7,10 +7,10 @@ import { MdOutlineDesktopWindows } from "react-icons/md";
 import { FaAppStoreIos } from "react-icons/fa";
 
 const data = [
-  {id: 1, icon: <FaReact />,  title: 'Frontend Development', description: 'Your product will look good and will be accessible on all devices, including mobile phones, tablets and desktops.'},
-  {id: 2, icon: <FaDatabase />,  title: 'Backend Development', description: 'The security of your business/product is taken seriously right from the start of the project. I will make sure your website/app is secure from attacks.'},
-  {id: 3, icon: <MdOutlineDesktopWindows />,  title: 'Web Application', description: 'Unlike other developers in the market, I will be building an app that runs on both IOS and Android devices without any extra cost to you.'},
-  {id: 4, icon: <FaAppStoreIos />,  title: 'UI/UX Design', description: 'My designs are modern and intuitive. I use industry standard rules to make sure your users have fun using your product.'},
+  {id: 1, icon: <FaReact />,  title: 'Frontend Development', description: 'Your product will deliver a beautiful, consistent experience on every device, from mobile phones and tablets to desktop screens.'},
+  {id: 2, icon: <MdOutlineDesktopWindows />,  title: 'Web Application', description: 'High-performing web applications tailored to your business needs and built for growth.'},
+  {id: 3, icon: <FaDatabase />,  title: 'Search Engine Optimization', description: 'SEO strategies designed to help your website rank higher and reach the right audience.'},
+  {id: 4, icon: <FaAppStoreIos />,  title: 'Mentorship', description: 'Guided frontend development mentorship designed to accelerate your learning and career.'},
 ]
 
 export default function Services() {

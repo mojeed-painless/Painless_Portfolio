@@ -59,7 +59,7 @@ section {
     padding: 10rem 0;
     background: var(--color-light);
     transition: var(--transition);
-    min-height: 100vh;
+    min-height: 100dvh;
     display: grid;
     place-items: center;
 }
@@ -126,9 +126,9 @@ img {
     gap: 1rem;
     background: var(--color-light);
     color: var(--color-black);
-    padding: 0.6em 2.5rem;
+    padding: 0.3rem 2rem;
     border: 1px solid transparent;
-    border-radius: var(--border-radius-2);
+    border-radius: var(--border-radius-3);
     cursor: pointer;
 }
 

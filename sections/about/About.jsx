@@ -1,4 +1,4 @@
-import aboutImage from '../../src/assets/main.jpg';
+import aboutImage from '../../src/assets/head-shot2.png';
 import './about.css';
 import Card from '../../components/Card.jsx';
 
@@ -8,9 +8,9 @@ import { TbBooks } from "react-icons/tb";
 import { BiHappyHeartEyes } from "react-icons/bi";
 
 const data = [
-  {id: 1, icon: <FaAward/>,  title: 'Experience', description: '3+ Years Working'},
-  {id: 2, icon: <TbBooks/>,  title: 'Projects', description: '100+ Completed'},
-  {id: 3, icon: <BiHappyHeartEyes/>,  title: 'Clients', description: '70+ happy clients'},
+  {id: 1, icon: <FaAward/>,  title: 'Experience', description: '5+ Years Working'},
+  {id: 2, icon: <TbBooks/>,  title: 'Projects', description: '10+ Completed'},
+  {id: 3, icon: <BiHappyHeartEyes/>,  title: 'Clients', description: '6+ happy clients'},
 ]
 
 export default function About() {
@@ -34,8 +34,8 @@ export default function About() {
               </Card>
             ))}
           </div>
-          <p>Building my clients love have always been my passion. Being in the web development industry for over 3 years and serving more than 70 happy clients worldwide, I'm always motivated to do more!</p>
-          <p>Hi, my name is Hajia Bintu from Accra, Ghana. I'm a full-stack web developer with a Bachelors degree in Computer Science. My top priority is to get your business online the right way, giving you industry-standard design and all the functionality you need to operate smoothly online. Get in touch today with the details of your project let's get started! Check out my resume below!</p>
+          <p>Building websites that clients love is at the heart of what I do. With over 5 years of experience in web development and more than 10 successful projects delivered, I’m driven by results, quality, and client satisfaction.</p>
+          <p>Hello, my name is Mojeed Shittu, a Frontent developer based in Lagos, Nigeria. I specialize in creating modern, industry-standard websites and web applications that help businesses grow online. Get in touch today with your project details and let’s get started. You can view my resume below.</p>
           <a href="" download className='btn primary'>Download CV <HiDownload /> </a>
         </div>
       </div>
