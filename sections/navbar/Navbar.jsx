@@ -2,14 +2,7 @@ import logo from '../../src/assets/pcalogo.png';
 import { IoIosColorPalette } from "react-icons/io";
 import './navbar.css';
 import { useState, useEffect } from 'react'
-
-const data = [
-    {id: 1, link: '#home', title: 'Home'},
-    {id: 2, link: '#about', title: 'About'},
-    {id: 3, link: '#services', title: 'Services'},
-    {id: 4, link: '#portfolio', title: 'Portfolio'},
-    {id: 5, link: '#contact', title: 'Contact'}
-];
+import { navLinks } from '../../src/data';
 
 export default function Navbar() {
 
@@ -56,7 +49,7 @@ export default function Navbar() {
                     <img src={logo} alt="Logo" />
                 </a>
                 <ul className='nav__menu'>
-                    {data.map(({id, link, title}) => {
+                    {navLinks.map(({id, link, title}) => {
                         return (
                             <li key={id}>
                                 <a 

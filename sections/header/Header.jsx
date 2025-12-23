@@ -1,18 +1,12 @@
 
 import headerImage from '../../src/assets/head-shot1.png';
 import './header.css';
-
-import { AiOutlineWhatsApp, AiOutlineGithub } from "react-icons/ai";
-import { FaLinkedin } from "react-icons/fa";
+import { socials } from '../../src/data';
 
 
-const data = [
-    {id: 1, link: 'https://linkedin.com/in/mojeed-shittu', icon: <FaLinkedin />},
-    // {id: 2, link: 'https://twitter.com', icon: <BsTwitterX />},
-    {id: 4, link: 'https://github.com/mojeed-painless', icon: <AiOutlineGithub />},
-    {id: 3, link: 'https://wa.me/2349124323167', icon: <AiOutlineWhatsApp />},
-    
-]
+
+
+
 
 export default function Header() {
     return (
@@ -34,8 +28,8 @@ export default function Header() {
                 </div>
                 
                 <div className="header__socials">
-                    {data.map(({id, link, icon}) => (
-                        <a key={id} href={link} target="_blank" rel="noreferrer noopener">{icon}</a>
+                    {socials.map(({id, link, Icon}) => (
+                        <a key={id} href={link} target="_blank" rel="noreferrer noopener"><Icon /></a>
                     ))}
                 </div>
             </div>
