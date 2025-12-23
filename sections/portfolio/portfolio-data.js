@@ -2,6 +2,7 @@
 import attanzeel from '../../src/assets/attanzeel.jpg';
 import lintelz from '../../src/assets/lintelz.jpg';
 import painlessLMS from '../../src/assets/painless-lms.jpg';
+import myportfolio from '../../src/assets/myportfolio.jpg';
 
 const data = [
     {
@@ -27,6 +28,14 @@ const data = [
         description: 'A modern, comprehensive Learning Management System (LMS) designed to provide an intuitive and seamless learning experience for students, instructors, and administrators.',
         demoLink: 'https://painless-lms-portal.vercel.app',
         codeLink: 'https://github.com/mojeed-painless/painless-lms-portal.git'
+    },
+    {
+        id: 4,
+        title: 'Personal Portfolio', 
+        image: myportfolio,
+        description: 'This is a single-page application (SPA) portfolio website designed to highlight professional skills, past projects, and services offered.',
+        demoLink: 'https://painless-portfolio.vercel.app/',
+        codeLink: 'https://github.com/mojeed-painless/Painless_Portfolio.git'
     },
     
 ]
