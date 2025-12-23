@@ -1,6 +1,7 @@
 footer {
     padding: 3rem 0;
     background-image: url('../../src/assets/blueback.jpg');
+    background-size: cover;
     transition: var(--transition);
     height: 60dvh;
     display: grid;
