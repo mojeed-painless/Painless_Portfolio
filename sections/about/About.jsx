@@ -1,4 +1,5 @@
 import aboutImage from '../../src/assets/head-shot2.png';
+import myResume from '../../src/assets/MY_RESUME_(SHITTU MOJEED).pdf'
 import './about.css';
 import Card from '../../components/Card.jsx';
 
@@ -36,7 +37,7 @@ export default function About() {
           </div>
           <p>Building websites that clients love is at the heart of what I do. With over 5 years of experience in web development and more than 10 successful projects delivered, I’m driven by results, quality, and client satisfaction.</p>
           <p>Hello, my name is Mojeed Shittu, a Frontent developer based in Lagos, Nigeria. I specialize in creating modern, industry-standard websites and web applications that help businesses grow online. Get in touch today with your project details and let’s get started. You can view my resume below.</p>
-          <a href="../../src/assets/MY_RESUME_(SHITTU MOJEED)" download className='btn primary'>Download CV <HiDownload /> </a>
+          <a href={myResume} download className='btn primary'>Download CV <HiDownload /> </a>
         </div>
       </div>
     </section>
